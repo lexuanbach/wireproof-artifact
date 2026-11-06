@@ -1,0 +1,224 @@
+{
+  "WireHistory": [
+    {
+      "ID": "wireproof-v1",
+      "Engine": "wireproof",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "reported",
+      "HistoricalStatus": "confirmed",
+      "CurrentStatus": "confirmed",
+      "At": 1793897547797406000,
+      "Population": [
+        "c1"
+      ],
+      "References": [
+        "c1-ke",
+        "c1-auth"
+      ],
+      "Known": 1,
+      "Assessed": 1,
+      "Unassessed": 0,
+      "Reason": "all applicable evidence joined on each connection"
+    },
+    {
+      "ID": "wireproof-v2",
+      "Engine": "wireproof",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "reported",
+      "HistoricalStatus": "revoked",
+      "CurrentStatus": "revoked",
+      "At": 1793897547797410000,
+      "Population": [
+        "c1"
+      ],
+      "References": null,
+      "Known": 1,
+      "Assessed": 1,
+      "Unassessed": 0,
+      "Reason": "inactive epoch"
+    },
+    {
+      "ID": "wireproof-v3",
+      "Engine": "wireproof",
+      "Epoch": "e2",
+      "Policy": "p2",
+      "Mode": "reported",
+      "HistoricalStatus": "confirmed",
+      "CurrentStatus": "confirmed",
+      "At": 1793897547797530000,
+      "Population": [
+        "c1"
+      ],
+      "References": [
+        "c1-ke",
+        "c1-auth"
+      ],
+      "Known": 1,
+      "Assessed": 1,
+      "Unassessed": 0,
+      "Reason": "all applicable evidence joined on each connection"
+    },
+    {
+      "ID": "wireproof-v4",
+      "Engine": "wireproof",
+      "Epoch": "e2",
+      "Policy": "p2",
+      "Mode": "complete",
+      "HistoricalStatus": "confirmed",
+      "CurrentStatus": "confirmed",
+      "At": 1793897547797563000,
+      "Population": [
+        "c1"
+      ],
+      "References": [
+        "c1-ke",
+        "c1-auth"
+      ],
+      "Known": 1,
+      "Assessed": 1,
+      "Unassessed": 0,
+      "Reason": "all applicable evidence joined on each connection"
+    }
+  ],
+  "BaselineHistory": [
+    {
+      "ID": "baseline-v1",
+      "Engine": "baseline",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "reported",
+      "HistoricalStatus": "confirmed",
+      "CurrentStatus": "confirmed",
+      "At": 1793897547797406000,
+      "Population": [
+        "c1"
+      ],
+      "References": [
+        "c1-ke",
+        "c1-auth"
+      ],
+      "Known": 1,
+      "Assessed": 1,
+      "Unassessed": 0,
+      "Reason": "all applicable evidence joined on each connection"
+    },
+    {
+      "ID": "baseline-v2",
+      "Engine": "baseline",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "reported",
+      "HistoricalStatus": "revoked",
+      "CurrentStatus": "revoked",
+      "At": 1793897547797410000,
+      "Population": [
+        "c1"
+      ],
+      "References": null,
+      "Known": 1,
+      "Assessed": 1,
+      "Unassessed": 0,
+      "Reason": "inactive epoch"
+    },
+    {
+      "ID": "baseline-v3",
+      "Engine": "baseline",
+      "Epoch": "e2",
+      "Policy": "p2",
+      "Mode": "reported",
+      "HistoricalStatus": "confirmed",
+      "CurrentStatus": "confirmed",
+      "At": 1793897547797530000,
+      "Population": [
+        "c1"
+      ],
+      "References": [
+        "c1-ke",
+        "c1-auth"
+      ],
+      "Known": 1,
+      "Assessed": 1,
+      "Unassessed": 0,
+      "Reason": "all applicable evidence joined on each connection"
+    },
+    {
+      "ID": "baseline-v4",
+      "Engine": "baseline",
+      "Epoch": "e2",
+      "Policy": "p2",
+      "Mode": "complete",
+      "HistoricalStatus": "unsupported",
+      "CurrentStatus": "confirmed",
+      "At": 1793897547797563000,
+      "Population": [
+        "c1"
+      ],
+      "References": null,
+      "Known": 1,
+      "Assessed": 1,
+      "Unassessed": 0,
+      "Reason": "baseline does not claim population completeness"
+    }
+  ],
+  "WireChanges": [
+    {
+      "At": 1793897547797406000,
+      "Epoch": "e1",
+      "Status": "confirmed",
+      "Reason": "all applicable evidence joined on each connection"
+    },
+    {
+      "At": 1793897547797409000,
+      "Epoch": "e1",
+      "Status": "revoked",
+      "Reason": "assignment invalidated"
+    },
+    {
+      "At": 1793897547797416000,
+      "Epoch": "e2",
+      "Status": "pending",
+      "Reason": "new assignment"
+    },
+    {
+      "At": 1793897547797530000,
+      "Epoch": "e2",
+      "Status": "confirmed",
+      "Reason": "all applicable evidence joined on each connection"
+    }
+  ],
+  "BaselineChanges": [
+    {
+      "At": 1793897547797406000,
+      "Epoch": "e1",
+      "Status": "confirmed",
+      "Reason": "all applicable evidence joined on each connection"
+    },
+    {
+      "At": 1793897547797409000,
+      "Epoch": "e1",
+      "Status": "revoked",
+      "Reason": "assignment invalidated"
+    },
+    {
+      "At": 1793897547797416000,
+      "Epoch": "e2",
+      "Status": "pending",
+      "Reason": "new assignment"
+    },
+    {
+      "At": 1793897547797530000,
+      "Epoch": "e2",
+      "Status": "confirmed",
+      "Reason": "all applicable evidence joined on each connection"
+    }
+  ],
+  "WireCorrections": null,
+  "WireRejected": [
+    "inactive appraisal e1"
+  ],
+  "BaselineRejected": [
+    "inactive appraisal e1"
+  ]
+}

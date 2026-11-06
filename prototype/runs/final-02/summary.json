@@ -1,0 +1,67 @@
+{
+  "delayed": {
+    "Trials": 10,
+    "Checks": 60,
+    "Passed": 60,
+    "Failures": 0,
+    "SuccessfulConnections": 20,
+    "StrictRejections": 0,
+    "StaleDurationMS": null
+  },
+  "fallback": {
+    "Trials": 10,
+    "Checks": 20,
+    "Passed": 20,
+    "Failures": 0,
+    "SuccessfulConnections": 10,
+    "StrictRejections": 0,
+    "StaleDurationMS": null
+  },
+  "hybrid": {
+    "Trials": 10,
+    "Checks": 50,
+    "Passed": 50,
+    "Failures": 0,
+    "SuccessfulConnections": 10,
+    "StrictRejections": 10,
+    "StaleDurationMS": null
+  },
+  "reassignment": {
+    "Trials": 10,
+    "Checks": 90,
+    "Passed": 90,
+    "Failures": 0,
+    "SuccessfulConnections": 10,
+    "StrictRejections": 0,
+    "StaleDurationMS": null
+  },
+  "rollout": {
+    "Trials": 10,
+    "Checks": 60,
+    "Passed": 60,
+    "Failures": 0,
+    "SuccessfulConnections": 20,
+    "StrictRejections": 0,
+    "StaleDurationMS": null
+  },
+  "stale": {
+    "Trials": 10,
+    "Checks": 40,
+    "Passed": 40,
+    "Failures": 0,
+    "SuccessfulConnections": 20,
+    "StrictRejections": 0,
+    "StaleDurationMS": [
+      51.095,
+      51.116,
+      51.126,
+      51.104,
+      51.11,
+      51.1,
+      51.098,
+      51.111,
+      51.115,
+      50.848
+    ]
+  }
+}

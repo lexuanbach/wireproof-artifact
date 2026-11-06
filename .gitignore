@@ -1,0 +1,12 @@
+# Local build outputs and credentials
+.DS_Store
+__pycache__/
+*.pyc
+*.key
+.env
+.env.*
+prototype/wireproof-demo
+prototype/runs/reproduced*/
+# Editorial material must not enter this repository
+*[Aa][Uu][Dd][Ii][Tt]*
+*[Rr][Ee][Vv][Ii][Ee][Ww]*

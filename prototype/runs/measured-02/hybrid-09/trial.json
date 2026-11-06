@@ -1,0 +1,69 @@
+{
+  "Scenario": "hybrid",
+  "Repetition": 9,
+  "Checks": [
+    {
+      "Name": "strict hybrid accepted",
+      "Engine": "wireproof",
+      "Expected": "confirmed",
+      "Actual": "confirmed",
+      "Pass": true
+    },
+    {
+      "Name": "strict hybrid accepted",
+      "Engine": "baseline",
+      "Expected": "confirmed",
+      "Actual": "confirmed",
+      "Pass": true
+    },
+    {
+      "Name": "complete positive",
+      "Engine": "wireproof",
+      "Expected": "confirmed",
+      "Actual": "confirmed",
+      "Pass": true
+    },
+    {
+      "Name": "complete positive",
+      "Engine": "baseline",
+      "Expected": "unsupported",
+      "Actual": "unsupported",
+      "Pass": true
+    },
+    {
+      "Name": "strict classical rejection",
+      "Engine": "tls",
+      "Expected": "handshake rejected",
+      "Actual": "true",
+      "Pass": true
+    }
+  ],
+  "Captures": [
+    {
+      "Connection": "c1",
+      "Handshake": "e4c4e732bbb6233a43afd24adfe273e25972f8c2e1bbe57f79cd57b6aebd8014",
+      "Group": "X25519MLKEM768",
+      "Source": "spiffe://wireproof.test/checkout/v1",
+      "Destination": "spiffe://wireproof.test/payment/new",
+      "Artifact": "13903e64f2bcbf2f4ccc2f2ec20d4e1cdaef41eb67e05b8c38437f2a4a199b82",
+      "Config": "4b8292e6d44533a6d96afe3da0b4f7450aa77d772bcedb48cfa9f42867ee94cf",
+      "ServerBytes": "c1-server.bin",
+      "ExpectedFailure": false,
+      "Error": ""
+    },
+    {
+      "Connection": "strict-reject",
+      "Handshake": "",
+      "Group": "",
+      "Source": "",
+      "Destination": "",
+      "Artifact": "",
+      "Config": "",
+      "ServerBytes": "strict-reject-server.bin",
+      "ExpectedFailure": true,
+      "Error": "remote error: tls: handshake failure"
+    }
+  ],
+  "Error": "",
+  "StaleDurationMS": 0
+}

@@ -1,0 +1,62 @@
+{
+  "Scenario": "stale",
+  "Repetition": 7,
+  "Checks": [
+    {
+      "Name": "initial correct",
+      "Engine": "wireproof",
+      "Expected": "confirmed",
+      "Actual": "confirmed",
+      "Pass": true
+    },
+    {
+      "Name": "initial correct",
+      "Engine": "baseline",
+      "Expected": "confirmed",
+      "Actual": "confirmed",
+      "Pass": true
+    },
+    {
+      "Name": "withdraw after violation",
+      "Engine": "wireproof",
+      "Expected": "revoked",
+      "Actual": "revoked",
+      "Pass": true
+    },
+    {
+      "Name": "withdraw after violation",
+      "Engine": "baseline",
+      "Expected": "revoked",
+      "Actual": "revoked",
+      "Pass": true
+    }
+  ],
+  "Captures": [
+    {
+      "Connection": "c1",
+      "Handshake": "099053b080f292c6c6220fb0cf1002883de35f063e08403f2dd3d8e3983eaea7",
+      "Group": "X25519MLKEM768",
+      "Source": "spiffe://wireproof.test/checkout/v1",
+      "Destination": "spiffe://wireproof.test/payment/new",
+      "Artifact": "bcd3eee6deb94f97c8dcbf6965cce1fa3966910b0921b875c1f17ab2e394b68c",
+      "Config": "4b8292e6d44533a6d96afe3da0b4f7450aa77d772bcedb48cfa9f42867ee94cf",
+      "ServerBytes": "c1-server.bin",
+      "ExpectedFailure": false,
+      "Error": ""
+    },
+    {
+      "Connection": "c2",
+      "Handshake": "e49b4688b09dff79ca7b07dd2564e119f2f3ebcf507cd698480b59cae6e2a5bb",
+      "Group": "X25519",
+      "Source": "spiffe://wireproof.test/checkout/v1",
+      "Destination": "spiffe://wireproof.test/payment/old",
+      "Artifact": "bcd3eee6deb94f97c8dcbf6965cce1fa3966910b0921b875c1f17ab2e394b68c",
+      "Config": "7c7803f3ed8a9fe3a5235b0983aa85602311e0b07c2c112fa929dd3257cd2d9b",
+      "ServerBytes": "c2-server.bin",
+      "ExpectedFailure": false,
+      "Error": ""
+    }
+  ],
+  "Error": "",
+  "StaleDurationMS": 51.13
+}

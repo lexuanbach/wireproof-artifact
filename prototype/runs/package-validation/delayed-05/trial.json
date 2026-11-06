@@ -1,0 +1,76 @@
+{
+  "Scenario": "delayed",
+  "Repetition": 5,
+  "Checks": [
+    {
+      "Name": "partial same population",
+      "Engine": "wireproof",
+      "Expected": "pending",
+      "Actual": "pending",
+      "Pass": true
+    },
+    {
+      "Name": "partial same population",
+      "Engine": "baseline",
+      "Expected": "pending",
+      "Actual": "pending",
+      "Pass": true
+    },
+    {
+      "Name": "before barrier",
+      "Engine": "wireproof",
+      "Expected": "pending",
+      "Actual": "pending",
+      "Pass": true
+    },
+    {
+      "Name": "before barrier",
+      "Engine": "baseline",
+      "Expected": "unsupported",
+      "Actual": "unsupported",
+      "Pass": true
+    },
+    {
+      "Name": "after delivery",
+      "Engine": "wireproof",
+      "Expected": "confirmed",
+      "Actual": "confirmed",
+      "Pass": true
+    },
+    {
+      "Name": "after delivery",
+      "Engine": "baseline",
+      "Expected": "unsupported",
+      "Actual": "unsupported",
+      "Pass": true
+    }
+  ],
+  "Captures": [
+    {
+      "Connection": "c1",
+      "Handshake": "0054546181d3cb7a48cbf80bf98ad762ed760b40d2a2faa1025a0d4f2aad04dd",
+      "Group": "X25519MLKEM768",
+      "Source": "spiffe://wireproof.test/checkout/v1",
+      "Destination": "spiffe://wireproof.test/payment/new",
+      "Artifact": "c4ff10b1b98cb1cf2e9403a99f2301fae99af796ac9134a40e3b756abf8fae88",
+      "Config": "4b8292e6d44533a6d96afe3da0b4f7450aa77d772bcedb48cfa9f42867ee94cf",
+      "ServerBytes": "c1-server.bin",
+      "ExpectedFailure": false,
+      "Error": ""
+    },
+    {
+      "Connection": "c2",
+      "Handshake": "1c4caed0f1b801efa31a9e9bc17a1561ecfae0f179e64cf1ff7748d6985d8253",
+      "Group": "X25519MLKEM768",
+      "Source": "spiffe://wireproof.test/checkout/v1",
+      "Destination": "spiffe://wireproof.test/payment/new",
+      "Artifact": "c4ff10b1b98cb1cf2e9403a99f2301fae99af796ac9134a40e3b756abf8fae88",
+      "Config": "4b8292e6d44533a6d96afe3da0b4f7450aa77d772bcedb48cfa9f42867ee94cf",
+      "ServerBytes": "c2-server.bin",
+      "ExpectedFailure": false,
+      "Error": ""
+    }
+  ],
+  "Error": "",
+  "StaleDurationMS": 0
+}

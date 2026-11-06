@@ -1,0 +1,85 @@
+{
+  "Scenario": "reassignment",
+  "Repetition": 10,
+  "Checks": [
+    {
+      "Name": "initial epoch",
+      "Engine": "wireproof",
+      "Expected": "confirmed",
+      "Actual": "confirmed",
+      "Pass": true
+    },
+    {
+      "Name": "initial epoch",
+      "Engine": "baseline",
+      "Expected": "confirmed",
+      "Actual": "confirmed",
+      "Pass": true
+    },
+    {
+      "Name": "replay cannot resurrect",
+      "Engine": "wireproof",
+      "Expected": "revoked",
+      "Actual": "revoked",
+      "Pass": true
+    },
+    {
+      "Name": "replay cannot resurrect",
+      "Engine": "baseline",
+      "Expected": "revoked",
+      "Actual": "revoked",
+      "Pass": true
+    },
+    {
+      "Name": "same handshake reappraised",
+      "Engine": "tls",
+      "Expected": "8c165e16ee6920582a4df1d408d16a9dd84e256255917f925ac451ee66d11eb5",
+      "Actual": "8c165e16ee6920582a4df1d408d16a9dd84e256255917f925ac451ee66d11eb5",
+      "Pass": true
+    },
+    {
+      "Name": "new epoch existing connection",
+      "Engine": "wireproof",
+      "Expected": "confirmed",
+      "Actual": "confirmed",
+      "Pass": true
+    },
+    {
+      "Name": "new epoch existing connection",
+      "Engine": "baseline",
+      "Expected": "confirmed",
+      "Actual": "confirmed",
+      "Pass": true
+    },
+    {
+      "Name": "new epoch complete",
+      "Engine": "wireproof",
+      "Expected": "confirmed",
+      "Actual": "confirmed",
+      "Pass": true
+    },
+    {
+      "Name": "new epoch complete",
+      "Engine": "baseline",
+      "Expected": "unsupported",
+      "Actual": "unsupported",
+      "Pass": true
+    }
+  ],
+  "Captures": [
+    {
+      "Connection": "c1",
+      "Handshake": "8c165e16ee6920582a4df1d408d16a9dd84e256255917f925ac451ee66d11eb5",
+      "Group": "X25519MLKEM768",
+      "Source": "spiffe://wireproof.test/checkout/v1",
+      "Destination": "spiffe://wireproof.test/payment/new",
+      "Artifact": "22608ae394ce2162dfca563a0e92994c60b34ed6d6ac73a01672a93b05cff876",
+      "Config": "4b8292e6d44533a6d96afe3da0b4f7450aa77d772bcedb48cfa9f42867ee94cf",
+      "ServerBytes": "c1-server.bin",
+      "ExpectedFailure": false,
+      "Error": ""
+    }
+  ],
+  "Error": "",
+  "StaleDurationMS": 0
+}

@@ -1,0 +1,236 @@
+{
+  "WireAppraisals": [
+    {
+      "ID": "wireproof-a1",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "reported",
+      "Cut": 1793899456534163000,
+      "Population": [
+        "c1",
+        "c2"
+      ],
+      "References": [
+        "c1-ke",
+        "c1-auth"
+      ]
+    },
+    {
+      "ID": "wireproof-a2",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "complete",
+      "Cut": 1793899456534167000,
+      "Population": [
+        "c1",
+        "c2"
+      ],
+      "References": [
+        "c1-ke",
+        "c1-auth"
+      ]
+    },
+    {
+      "ID": "wireproof-a3",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "complete",
+      "Cut": 1793899456585339000,
+      "Population": [
+        "c1",
+        "c2"
+      ],
+      "References": [
+        "c1-ke",
+        "c1-auth",
+        "c2-ke",
+        "c2-auth"
+      ]
+    }
+  ],
+  "BaselineAppraisals": [
+    {
+      "ID": "baseline-a1",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "reported",
+      "Cut": 1793899456534163000,
+      "Population": [
+        "c1",
+        "c2"
+      ],
+      "References": [
+        "c1-ke",
+        "c1-auth"
+      ]
+    },
+    {
+      "ID": "baseline-a2",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "complete",
+      "Cut": 1793899456534167000,
+      "Population": [
+        "c1",
+        "c2"
+      ],
+      "References": []
+    },
+    {
+      "ID": "baseline-a3",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "complete",
+      "Cut": 1793899456585339000,
+      "Population": [
+        "c1",
+        "c2"
+      ],
+      "References": []
+    }
+  ],
+  "WireHistory": [
+    {
+      "ID": "wireproof-v1",
+      "Engine": "wireproof",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "reported",
+      "HistoricalStatus": "pending",
+      "CurrentStatus": "pending",
+      "At": 1793899456534163000,
+      "Population": [
+        "c1",
+        "c2"
+      ],
+      "References": [
+        "c1-ke",
+        "c1-auth"
+      ],
+      "Known": 2,
+      "Assessed": 2,
+      "Unassessed": 0,
+      "Reason": "stale or missing liveness"
+    },
+    {
+      "ID": "wireproof-v2",
+      "Engine": "wireproof",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "complete",
+      "HistoricalStatus": "pending",
+      "CurrentStatus": "pending",
+      "At": 1793899456534167000,
+      "Population": [
+        "c1",
+        "c2"
+      ],
+      "References": [
+        "c1-ke",
+        "c1-auth"
+      ],
+      "Known": 2,
+      "Assessed": 2,
+      "Unassessed": 0,
+      "Reason": "stale or missing liveness"
+    },
+    {
+      "ID": "wireproof-v3",
+      "Engine": "wireproof",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "complete",
+      "HistoricalStatus": "confirmed",
+      "CurrentStatus": "confirmed",
+      "At": 1793899456585339000,
+      "Population": [
+        "c1",
+        "c2"
+      ],
+      "References": [
+        "c1-ke",
+        "c1-auth",
+        "c2-ke",
+        "c2-auth"
+      ],
+      "Known": 2,
+      "Assessed": 2,
+      "Unassessed": 0,
+      "Reason": "all applicable evidence joined on each connection"
+    }
+  ],
+  "BaselineHistory": [
+    {
+      "ID": "baseline-v1",
+      "Engine": "baseline",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "reported",
+      "HistoricalStatus": "pending",
+      "CurrentStatus": "pending",
+      "At": 1793899456534163000,
+      "Population": [
+        "c1",
+        "c2"
+      ],
+      "References": [
+        "c1-ke",
+        "c1-auth"
+      ],
+      "Known": 2,
+      "Assessed": 2,
+      "Unassessed": 0,
+      "Reason": "stale or missing liveness"
+    },
+    {
+      "ID": "baseline-v2",
+      "Engine": "baseline",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "complete",
+      "HistoricalStatus": "unsupported",
+      "CurrentStatus": "pending",
+      "At": 1793899456534167000,
+      "Population": [
+        "c1",
+        "c2"
+      ],
+      "References": null,
+      "Known": 2,
+      "Assessed": 2,
+      "Unassessed": 0,
+      "Reason": "baseline does not claim population completeness"
+    },
+    {
+      "ID": "baseline-v3",
+      "Engine": "baseline",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "complete",
+      "HistoricalStatus": "unsupported",
+      "CurrentStatus": "pending",
+      "At": 1793899456585339000,
+      "Population": [
+        "c1",
+        "c2"
+      ],
+      "References": null,
+      "Known": 2,
+      "Assessed": 2,
+      "Unassessed": 0,
+      "Reason": "baseline does not claim population completeness"
+    }
+  ],
+  "WireChanges": [
+    {
+      "At": 1793899456585339000,
+      "Epoch": "e1",
+      "Status": "confirmed",
+      "Reason": "all applicable evidence joined on each connection"
+    }
+  ],
+  "BaselineChanges": null,
+  "WireCorrections": null,
+  "WireRejected": null,
+  "BaselineRejected": null
+}

@@ -1,0 +1,106 @@
+{
+  "WireHistory": [
+    {
+      "ID": "wireproof-v1",
+      "Engine": "wireproof",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "reported",
+      "HistoricalStatus": "confirmed",
+      "CurrentStatus": "confirmed",
+      "At": 1793898256141349000,
+      "Population": [
+        "c1"
+      ],
+      "References": [
+        "c1-ke",
+        "c1-auth"
+      ],
+      "Known": 1,
+      "Assessed": 1,
+      "Unassessed": 0,
+      "Reason": "all applicable evidence joined on each connection"
+    },
+    {
+      "ID": "wireproof-v2",
+      "Engine": "wireproof",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "complete",
+      "HistoricalStatus": "confirmed",
+      "CurrentStatus": "confirmed",
+      "At": 1793898256141353000,
+      "Population": [
+        "c1"
+      ],
+      "References": [
+        "c1-ke",
+        "c1-auth"
+      ],
+      "Known": 1,
+      "Assessed": 1,
+      "Unassessed": 0,
+      "Reason": "all applicable evidence joined on each connection"
+    }
+  ],
+  "BaselineHistory": [
+    {
+      "ID": "baseline-v1",
+      "Engine": "baseline",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "reported",
+      "HistoricalStatus": "confirmed",
+      "CurrentStatus": "confirmed",
+      "At": 1793898256141349000,
+      "Population": [
+        "c1"
+      ],
+      "References": [
+        "c1-ke",
+        "c1-auth"
+      ],
+      "Known": 1,
+      "Assessed": 1,
+      "Unassessed": 0,
+      "Reason": "all applicable evidence joined on each connection"
+    },
+    {
+      "ID": "baseline-v2",
+      "Engine": "baseline",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "complete",
+      "HistoricalStatus": "unsupported",
+      "CurrentStatus": "confirmed",
+      "At": 1793898256141353000,
+      "Population": [
+        "c1"
+      ],
+      "References": null,
+      "Known": 1,
+      "Assessed": 1,
+      "Unassessed": 0,
+      "Reason": "baseline does not claim population completeness"
+    }
+  ],
+  "WireChanges": [
+    {
+      "At": 1793898256141349000,
+      "Epoch": "e1",
+      "Status": "confirmed",
+      "Reason": "all applicable evidence joined on each connection"
+    }
+  ],
+  "BaselineChanges": [
+    {
+      "At": 1793898256141349000,
+      "Epoch": "e1",
+      "Status": "confirmed",
+      "Reason": "all applicable evidence joined on each connection"
+    }
+  ],
+  "WireCorrections": null,
+  "WireRejected": null,
+  "BaselineRejected": null
+}

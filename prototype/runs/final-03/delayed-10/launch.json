@@ -1,0 +1,16 @@
+[
+  {
+    "Address": "127.0.0.1:61515",
+    "Identity": "spiffe://wireproof.test/payment/old",
+    "Artifact": "3c68e4ec004d62fde7135198fccc15fe7fc856bb267a08427cfc26cd168d48b9",
+    "Config": "7c7803f3ed8a9fe3a5235b0983aa85602311e0b07c2c112fa929dd3257cd2d9b",
+    "PID": 41390
+  },
+  {
+    "Address": "127.0.0.1:61516",
+    "Identity": "spiffe://wireproof.test/payment/new",
+    "Artifact": "3c68e4ec004d62fde7135198fccc15fe7fc856bb267a08427cfc26cd168d48b9",
+    "Config": "4b8292e6d44533a6d96afe3da0b4f7450aa77d772bcedb48cfa9f42867ee94cf",
+    "PID": 41391
+  }
+]

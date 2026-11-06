@@ -1,0 +1,174 @@
+{
+  "WireHistory": [
+    {
+      "ID": "wireproof-v1",
+      "Engine": "wireproof",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "reported",
+      "HistoricalStatus": "confirmed",
+      "CurrentStatus": "confirmed",
+      "At": 1793898256933532000,
+      "Population": [
+        "c2"
+      ],
+      "References": [
+        "c2-ke",
+        "c2-auth"
+      ],
+      "Known": 2,
+      "Assessed": 1,
+      "Unassessed": 1,
+      "Reason": "all applicable evidence joined on each connection"
+    },
+    {
+      "ID": "wireproof-v2",
+      "Engine": "wireproof",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "complete",
+      "HistoricalStatus": "pending",
+      "CurrentStatus": "pending",
+      "At": 1793898256933535000,
+      "Population": [
+        "c1",
+        "c2"
+      ],
+      "References": [
+        "c2-ke",
+        "c2-auth"
+      ],
+      "Known": 2,
+      "Assessed": 2,
+      "Unassessed": 0,
+      "Reason": "stale or missing liveness"
+    },
+    {
+      "ID": "wireproof-v3",
+      "Engine": "wireproof",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "reported",
+      "HistoricalStatus": "revoked",
+      "CurrentStatus": "revoked",
+      "At": 1793898256933686000,
+      "Population": [
+        "c1",
+        "c2"
+      ],
+      "References": [
+        "c1-ke",
+        "c1-auth",
+        "c2-ke",
+        "c2-auth"
+      ],
+      "Known": 2,
+      "Assessed": 2,
+      "Unassessed": 0,
+      "Reason": "known forbidden value"
+    }
+  ],
+  "BaselineHistory": [
+    {
+      "ID": "baseline-v1",
+      "Engine": "baseline",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "reported",
+      "HistoricalStatus": "confirmed",
+      "CurrentStatus": "confirmed",
+      "At": 1793898256933532000,
+      "Population": [
+        "c2"
+      ],
+      "References": [
+        "c2-ke",
+        "c2-auth"
+      ],
+      "Known": 2,
+      "Assessed": 1,
+      "Unassessed": 1,
+      "Reason": "all applicable evidence joined on each connection"
+    },
+    {
+      "ID": "baseline-v2",
+      "Engine": "baseline",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "complete",
+      "HistoricalStatus": "unsupported",
+      "CurrentStatus": "confirmed",
+      "At": 1793898256933535000,
+      "Population": [
+        "c1",
+        "c2"
+      ],
+      "References": null,
+      "Known": 2,
+      "Assessed": 2,
+      "Unassessed": 0,
+      "Reason": "baseline does not claim population completeness"
+    },
+    {
+      "ID": "baseline-v3",
+      "Engine": "baseline",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "reported",
+      "HistoricalStatus": "revoked",
+      "CurrentStatus": "revoked",
+      "At": 1793898256933686000,
+      "Population": [
+        "c1",
+        "c2"
+      ],
+      "References": [
+        "c1-ke",
+        "c1-auth",
+        "c2-ke",
+        "c2-auth"
+      ],
+      "Known": 2,
+      "Assessed": 2,
+      "Unassessed": 0,
+      "Reason": "known forbidden value"
+    }
+  ],
+  "WireChanges": [
+    {
+      "At": 1793898256933532000,
+      "Epoch": "e1",
+      "Status": "confirmed",
+      "Reason": "all applicable evidence joined on each connection"
+    },
+    {
+      "At": 1793898256933535000,
+      "Epoch": "e1",
+      "Status": "pending",
+      "Reason": "stale or missing liveness"
+    },
+    {
+      "At": 1793898256933686000,
+      "Epoch": "e1",
+      "Status": "revoked",
+      "Reason": "known forbidden value"
+    }
+  ],
+  "BaselineChanges": [
+    {
+      "At": 1793898256933532000,
+      "Epoch": "e1",
+      "Status": "confirmed",
+      "Reason": "all applicable evidence joined on each connection"
+    },
+    {
+      "At": 1793898256933686000,
+      "Epoch": "e1",
+      "Status": "revoked",
+      "Reason": "known forbidden value"
+    }
+  ],
+  "WireCorrections": null,
+  "WireRejected": null,
+  "BaselineRejected": null
+}

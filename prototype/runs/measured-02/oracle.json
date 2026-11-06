@@ -1,0 +1,988 @@
+{
+  "captures": 100,
+  "passed": 100,
+  "successful_handshakes": 90,
+  "expected_rejections": 10,
+  "rows": [
+    {
+      "trial": "delayed-01",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "0867547423e19aa653463e8a96e27bea5e0f3b443084eaac372149ecfa86d8f9",
+      "pass": true
+    },
+    {
+      "trial": "delayed-01",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "6b400b4227ae4a6d8be54bc95f58f8f9c4563977e856f714f1f6a6f3ad81ef4d",
+      "pass": true
+    },
+    {
+      "trial": "delayed-02",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "e5f94e4aa5bf52ba50933891bbcd35ad8e31e93a6e279b69f8ac7ac29c4621c5",
+      "pass": true
+    },
+    {
+      "trial": "delayed-02",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "523d67f502082280d22746fa6242ef4146b799f9e17a5e976e3ec472f515a3ef",
+      "pass": true
+    },
+    {
+      "trial": "delayed-03",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "5f4cd41eea977ded8b6f6506b367caef8279d1af936897548f3d3e9b6caffb68",
+      "pass": true
+    },
+    {
+      "trial": "delayed-03",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "4fd6d656e9edd2fd9433f9b6be96e89f94e3a36151681bef4dffda002a083226",
+      "pass": true
+    },
+    {
+      "trial": "delayed-04",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "36dd5bb006f7b37bf990a19e35318be8eb1609f39b602aa2194787d1b6eb5678",
+      "pass": true
+    },
+    {
+      "trial": "delayed-04",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "d050d6d87450008f6223ad6113de01412fb0ec0e9aff0162264fb2e1d4cb3fec",
+      "pass": true
+    },
+    {
+      "trial": "delayed-05",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "fbb7387ba88d5177269314e1cf187078d633a3b8ef39ed214e8887d92bb6d837",
+      "pass": true
+    },
+    {
+      "trial": "delayed-05",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "8040ad60116b43cda7475d9c2c6419c631f13a173ef5a46e93e7df8c5cda6ede",
+      "pass": true
+    },
+    {
+      "trial": "delayed-06",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "ceeede14232b80fca40ea37a36a94735f2866ed8f32ba0f1a44cd8bc5144909b",
+      "pass": true
+    },
+    {
+      "trial": "delayed-06",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "2bde4ae934c33b251eaad057ae07fc8d84eedf503d4679cebfeee240f6c2776b",
+      "pass": true
+    },
+    {
+      "trial": "delayed-07",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "6e2f3066f89829c946f3213d9474030369bfa6d67ae7478d8358e9439a90e6d0",
+      "pass": true
+    },
+    {
+      "trial": "delayed-07",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "b134fea30b5e5c2317660807b245c6653d402b432ceb7d50c32d522c82961100",
+      "pass": true
+    },
+    {
+      "trial": "delayed-08",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "97a17e460fdfbdb190345f0503595a062d1ac200020d5cadf9ebaf8929963205",
+      "pass": true
+    },
+    {
+      "trial": "delayed-08",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "fe1516ea832410311be75666eae8c946a3268b5ca2a616e5ef50f78effa9ef7b",
+      "pass": true
+    },
+    {
+      "trial": "delayed-09",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "013d1eacb3314b012395dfab63e7a91819b0d0805f1c47681eebb6fe2b77c113",
+      "pass": true
+    },
+    {
+      "trial": "delayed-09",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "159efe17a8f32d72a980393df37aa65e4e03e5bb0d8078dda577b36eab7d9a6e",
+      "pass": true
+    },
+    {
+      "trial": "delayed-10",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "105c3730dc7892e92417f4ab60b8f38ffa4b9694d1012000b08bdb9affecbb12",
+      "pass": true
+    },
+    {
+      "trial": "delayed-10",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "b639197b68674c155c23bee56221d260dd8d928098acdd4a0e7480b9ed4348a7",
+      "pass": true
+    },
+    {
+      "trial": "fallback-01",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "50835efd16e594c6a20c98e20aec564d5f76862fe07ba4a4c162afe490118d9b",
+      "pass": true
+    },
+    {
+      "trial": "fallback-02",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "50300c6d768ba6bcce8ee57fe50634071e80b87107d8670dc4b7e0033d575f5b",
+      "pass": true
+    },
+    {
+      "trial": "fallback-03",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "d840f748c85228ebf775054bb40410f83b299b6ac36db985e0e2d49f485ab9ce",
+      "pass": true
+    },
+    {
+      "trial": "fallback-04",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "db593c50dd212cda0f633b28d6aa19316905a16c6f169750da9d710a64c51cf7",
+      "pass": true
+    },
+    {
+      "trial": "fallback-05",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "99825e4c725fc3b1fe4004aab88d3546bd8341f3b0a9383e3d11b6de81e55f94",
+      "pass": true
+    },
+    {
+      "trial": "fallback-06",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "376f78be98895624f54d03c8da08578143ae92d4ba1cbb263901cdf02b59d85d",
+      "pass": true
+    },
+    {
+      "trial": "fallback-07",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "c3048b6e8ba93525ce675eb199299cdd0d22a15d74f81c4cf78119be1e4d2054",
+      "pass": true
+    },
+    {
+      "trial": "fallback-08",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "09e8e8fe237f3b1099d7f8190a6851ae415d78a992f529e59aaec3abfa14a460",
+      "pass": true
+    },
+    {
+      "trial": "fallback-09",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "8a257095c09f016c78e922d88b448aaefd502711b6dc5932d854149479a3fc8e",
+      "pass": true
+    },
+    {
+      "trial": "fallback-10",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "5a9f5ebce74739a1267f486dee72131a5f3e69d2405a83c2b019d78fce9f3142",
+      "pass": true
+    },
+    {
+      "trial": "hybrid-01",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "dbe17a4fbe5786330aa7bc3ab7d099d9a160eb8eb1fc0a5789384afa2dbfc18e",
+      "pass": true
+    },
+    {
+      "trial": "hybrid-01",
+      "connection": "strict-reject",
+      "expected_failure": true,
+      "groups": [],
+      "sha256": "c29a73f289598bf8a30a3e10ccfc7b981dd824f11838b3149c9a71cffe4670bd",
+      "pass": true
+    },
+    {
+      "trial": "hybrid-02",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "bc516b1b694fe907ef59d243e9db6e4c764a9881b3d136335403f35d89865484",
+      "pass": true
+    },
+    {
+      "trial": "hybrid-02",
+      "connection": "strict-reject",
+      "expected_failure": true,
+      "groups": [],
+      "sha256": "c29a73f289598bf8a30a3e10ccfc7b981dd824f11838b3149c9a71cffe4670bd",
+      "pass": true
+    },
+    {
+      "trial": "hybrid-03",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "7aa705cc5dd3fd33781dc303155a4b50bb4d2336e5cd426d0b2f41fc36f230e7",
+      "pass": true
+    },
+    {
+      "trial": "hybrid-03",
+      "connection": "strict-reject",
+      "expected_failure": true,
+      "groups": [],
+      "sha256": "c29a73f289598bf8a30a3e10ccfc7b981dd824f11838b3149c9a71cffe4670bd",
+      "pass": true
+    },
+    {
+      "trial": "hybrid-04",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "d6c2b417e5672ce216350be4052f4cd14a6e88c012140a9e772bb80c438314a0",
+      "pass": true
+    },
+    {
+      "trial": "hybrid-04",
+      "connection": "strict-reject",
+      "expected_failure": true,
+      "groups": [],
+      "sha256": "c29a73f289598bf8a30a3e10ccfc7b981dd824f11838b3149c9a71cffe4670bd",
+      "pass": true
+    },
+    {
+      "trial": "hybrid-05",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "ab7a5010975f6d95b47de0497c54b48c0699bba28c6f39af6f71fda695c11ecf",
+      "pass": true
+    },
+    {
+      "trial": "hybrid-05",
+      "connection": "strict-reject",
+      "expected_failure": true,
+      "groups": [],
+      "sha256": "c29a73f289598bf8a30a3e10ccfc7b981dd824f11838b3149c9a71cffe4670bd",
+      "pass": true
+    },
+    {
+      "trial": "hybrid-06",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "c9e8cc145cd9218e1a70c7531f06690982c2a92b9a52d0daf1d49c186a0b1a68",
+      "pass": true
+    },
+    {
+      "trial": "hybrid-06",
+      "connection": "strict-reject",
+      "expected_failure": true,
+      "groups": [],
+      "sha256": "c29a73f289598bf8a30a3e10ccfc7b981dd824f11838b3149c9a71cffe4670bd",
+      "pass": true
+    },
+    {
+      "trial": "hybrid-07",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "a2103b448df130605ba779678cc172b1e51c3a340336db9187676617a6e29865",
+      "pass": true
+    },
+    {
+      "trial": "hybrid-07",
+      "connection": "strict-reject",
+      "expected_failure": true,
+      "groups": [],
+      "sha256": "c29a73f289598bf8a30a3e10ccfc7b981dd824f11838b3149c9a71cffe4670bd",
+      "pass": true
+    },
+    {
+      "trial": "hybrid-08",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "d048fdac0957e31f6fab8238424b37c3d2516c91d62ebdcfd5a055694878ba40",
+      "pass": true
+    },
+    {
+      "trial": "hybrid-08",
+      "connection": "strict-reject",
+      "expected_failure": true,
+      "groups": [],
+      "sha256": "c29a73f289598bf8a30a3e10ccfc7b981dd824f11838b3149c9a71cffe4670bd",
+      "pass": true
+    },
+    {
+      "trial": "hybrid-09",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "26e23609f1a61c0cdbaadcea48cf64f834215535033fa1cf8ebec6841e0e5601",
+      "pass": true
+    },
+    {
+      "trial": "hybrid-09",
+      "connection": "strict-reject",
+      "expected_failure": true,
+      "groups": [],
+      "sha256": "c29a73f289598bf8a30a3e10ccfc7b981dd824f11838b3149c9a71cffe4670bd",
+      "pass": true
+    },
+    {
+      "trial": "hybrid-10",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "0c9ed2fed4ef7e42f6f29b3daace6b4a26ff68c48edeceb56a8e16c5893212ea",
+      "pass": true
+    },
+    {
+      "trial": "hybrid-10",
+      "connection": "strict-reject",
+      "expected_failure": true,
+      "groups": [],
+      "sha256": "c29a73f289598bf8a30a3e10ccfc7b981dd824f11838b3149c9a71cffe4670bd",
+      "pass": true
+    },
+    {
+      "trial": "reassignment-01",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "b9f146f9a5a1dcd45f89ea08a1956f3728cc975e4ee0992bce1c3e72e9e127ab",
+      "pass": true
+    },
+    {
+      "trial": "reassignment-02",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "3ed90121f1ca9faacac5e67c6305d6c6849b37391512e5b07449ca3ee1656ef1",
+      "pass": true
+    },
+    {
+      "trial": "reassignment-03",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "299a13c9059f9c13bb114b9b0d93166a2fde08760fa67f17654dfdce119d487a",
+      "pass": true
+    },
+    {
+      "trial": "reassignment-04",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "dcac77549846ce6da1ae28be74031e43348559ac1a2a508c82e9c3b0f56fc452",
+      "pass": true
+    },
+    {
+      "trial": "reassignment-05",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "73eb49b511123984e2c96b2a05c249837f7d45bfd8f69e368d397944b9f991a8",
+      "pass": true
+    },
+    {
+      "trial": "reassignment-06",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "3ca4577caa8670d474ab336baf3d8009d28e84ef381153df1e11a1cea6602210",
+      "pass": true
+    },
+    {
+      "trial": "reassignment-07",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "66fdaad8a8a2fbc8af054cb94eab5b2624f415389e7d7e48f826fc708eda06e8",
+      "pass": true
+    },
+    {
+      "trial": "reassignment-08",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "ecbadcf6a11609d4410b108b086814e9f6104700cabed1a994cbc7bc08ee6e24",
+      "pass": true
+    },
+    {
+      "trial": "reassignment-09",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "f8f8d26fa22d29b82116d4caa8007b0ef72977b720c24d987ee54831351ef260",
+      "pass": true
+    },
+    {
+      "trial": "reassignment-10",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "b06c30f13a05d24d52d0499b33e25b000eeef9fc6905291592948f36b6ba4865",
+      "pass": true
+    },
+    {
+      "trial": "rollout-01",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "4073df0fcf876f187f732a7b0c7e12dc6adc9f937e71d2ff7e9206391caced18",
+      "pass": true
+    },
+    {
+      "trial": "rollout-01",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "343431fb1cc5badcadbcc9fdcb0363091ea41f1627470c92af5a6a2e41742d9d",
+      "pass": true
+    },
+    {
+      "trial": "rollout-02",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "566550b72a7e0304429e7fce2a4ba978911e071af4b769e5c57793f9427837b3",
+      "pass": true
+    },
+    {
+      "trial": "rollout-02",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "cae6794955cfae26feb2131558dbdee4859de721ba7d30e2e2fb426e183058e4",
+      "pass": true
+    },
+    {
+      "trial": "rollout-03",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "e1a752973a47582d367e2a7b2f936dd2b51bc17e1a1d72e61b8c012d684e7e9e",
+      "pass": true
+    },
+    {
+      "trial": "rollout-03",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "9e3940ff51c83d1f1ea071099326447f19387e6706a0a397676101120b96719b",
+      "pass": true
+    },
+    {
+      "trial": "rollout-04",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "e7a312dfea2da9fcb5e43e5cdaeea029abd6682bc0f04c4868c7962ab5e9587d",
+      "pass": true
+    },
+    {
+      "trial": "rollout-04",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "61a948a48271526c2873ee115cc29228c3e13fc7d1bd729f957ed3ad4566eb44",
+      "pass": true
+    },
+    {
+      "trial": "rollout-05",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "a970cf8501c422769f8b86b9a04fa2a826d5dc4d062474f834571ee7e5f88228",
+      "pass": true
+    },
+    {
+      "trial": "rollout-05",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "2c94f75065bd183b466e38df064c584815e8213293b5fc7166c008ab68525b87",
+      "pass": true
+    },
+    {
+      "trial": "rollout-06",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "6a77eb004abbe77287d8be350943df36670f7299b0baaadd7171e2af5b0e1c38",
+      "pass": true
+    },
+    {
+      "trial": "rollout-06",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "db73110d09c315a049936d85f0801f7d84c814ed591dbafc92aeac22bc58a082",
+      "pass": true
+    },
+    {
+      "trial": "rollout-07",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "beaa28dbb352d26e4310abaaded695859b87b902e9dc5657b3e60818a9c01e4d",
+      "pass": true
+    },
+    {
+      "trial": "rollout-07",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "139c257ae62c6616159455cf3a46b17c5dc6d531f76eee1a68ac243cfaf1fe69",
+      "pass": true
+    },
+    {
+      "trial": "rollout-08",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "71f6dbb0cd7c209e3019015879db5878846fe7ea644bc86feb2450a900f408f2",
+      "pass": true
+    },
+    {
+      "trial": "rollout-08",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "7b03e7e0224443af643b3948534301e7bf8895d93ae3521e39a097cb6a60afe7",
+      "pass": true
+    },
+    {
+      "trial": "rollout-09",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "2c9ad2f6fb98bb24c9c48b41761997dc299feee98ee1da85dbb7f0adab571f3c",
+      "pass": true
+    },
+    {
+      "trial": "rollout-09",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "29285c59d69480f8a729533cb31e6442e990a8d5852edf787489a06246c2e181",
+      "pass": true
+    },
+    {
+      "trial": "rollout-10",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "21280c7bcee079cc83b60c2c18cd6daba15b672040466eea27b53bac0ca3fe28",
+      "pass": true
+    },
+    {
+      "trial": "rollout-10",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "3746f0ceb0293ec93d993da20a8cdf0fecf52c6f4ea7db6ac56a112f8fcd8de7",
+      "pass": true
+    },
+    {
+      "trial": "stale-01",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "519b3aa8bad6e83e3242fa872f8a06dbdf5d84522ec37cf1d005ac1c8304e9c5",
+      "pass": true
+    },
+    {
+      "trial": "stale-01",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "30342d01569b9314d1cfa737411e49cd40f8ac9f842c6176ee061c8e781eff85",
+      "pass": true
+    },
+    {
+      "trial": "stale-02",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "319cb88fb2c08ad7f240c1f2cc3e5d769d41b852041351e97bc994d287b5fdaa",
+      "pass": true
+    },
+    {
+      "trial": "stale-02",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "e435bdc5e923ba4427ad036315f3cd0215c3a5f50ce10d35d845be3594ca3fdd",
+      "pass": true
+    },
+    {
+      "trial": "stale-03",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "3dd52c211674f7549c75514f8bf58f6296a485b491762e9bbd11c531f11ba2e6",
+      "pass": true
+    },
+    {
+      "trial": "stale-03",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "07e6fd581ccf4ae8e8fcb024f5411b7e51b4e219c4f165b0ba7badeae05fc870",
+      "pass": true
+    },
+    {
+      "trial": "stale-04",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "5e4abd3cd583bdeb5081ad7356d1153b5de6c9aad49cc1da57784c661c000956",
+      "pass": true
+    },
+    {
+      "trial": "stale-04",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "7100b059e239c30fd35ce9a2c1a0f98b46835524b65d457a6a869f9895e22d62",
+      "pass": true
+    },
+    {
+      "trial": "stale-05",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "c25e2e26975a26491431422c38cdf28fb99503bf8fef96e7fd79e900801c5654",
+      "pass": true
+    },
+    {
+      "trial": "stale-05",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "fc2fbf2544cddfb2700ed5c7e2c34afc3d95a84723fb160205239605ff85493d",
+      "pass": true
+    },
+    {
+      "trial": "stale-06",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "a2258bcf7bcaed9f9635cc89f7258175d21e5f978035ebcd28ab93e73e85ac25",
+      "pass": true
+    },
+    {
+      "trial": "stale-06",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "8f84dfe35a2cab71867bb3d4ed99166278013eaedc6347f03a05a4c1a890d222",
+      "pass": true
+    },
+    {
+      "trial": "stale-07",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "3aaec5501e2ef782e2ec5b9829740db0273fca960f874444542bef6f6101f7a1",
+      "pass": true
+    },
+    {
+      "trial": "stale-07",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "bc9da154b0d9313f64970546195fbf93f042515413008bdb662e997ffd20dc3a",
+      "pass": true
+    },
+    {
+      "trial": "stale-08",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "fff3d72152ba3f9e3a041c47b7f741a0bd1253fd9bc0fca924d8976eabb0c036",
+      "pass": true
+    },
+    {
+      "trial": "stale-08",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "6c158e99f4a5ccb7b621ffa06fdd3f8beed6705e754da15aec8df76454c86915",
+      "pass": true
+    },
+    {
+      "trial": "stale-09",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "9328699aa9584e509fa87d0f8362269e4d7811724c89a7a3aeeb389b09350faa",
+      "pass": true
+    },
+    {
+      "trial": "stale-09",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "a36b1685d10d58740a0eff2e665ff74970c810b40c415430d088b0f86baa3bf2",
+      "pass": true
+    },
+    {
+      "trial": "stale-10",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "17ea9cab1ebbcd76906e40626089e0a033ef47b9f9f819428d02791399056c9e",
+      "pass": true
+    },
+    {
+      "trial": "stale-10",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "d334838e6ec1595475035541a509d27b9f4e980d3500796682e125f0c0d88228",
+      "pass": true
+    }
+  ]
+}

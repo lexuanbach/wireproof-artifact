@@ -1,0 +1,36 @@
+{
+  "Scenario": "fallback",
+  "Repetition": 4,
+  "Checks": [
+    {
+      "Name": "configured hybrid actual classical",
+      "Engine": "wireproof",
+      "Expected": "blocked",
+      "Actual": "blocked",
+      "Pass": true
+    },
+    {
+      "Name": "configured hybrid actual classical",
+      "Engine": "baseline",
+      "Expected": "blocked",
+      "Actual": "blocked",
+      "Pass": true
+    }
+  ],
+  "Captures": [
+    {
+      "Connection": "c1",
+      "Handshake": "458a0f469a4ab34749d972751830ba19bda24ab1864b84fb167c62778e6a448e",
+      "Group": "X25519",
+      "Source": "spiffe://wireproof.test/checkout/v1",
+      "Destination": "spiffe://wireproof.test/payment/old",
+      "Artifact": "3d960e808013626538920d6894a2d080c9b34be441fcca7401a2d48488670f5e",
+      "Config": "7c7803f3ed8a9fe3a5235b0983aa85602311e0b07c2c112fa929dd3257cd2d9b",
+      "ServerBytes": "c1-server.bin",
+      "ExpectedFailure": false,
+      "Error": ""
+    }
+  ],
+  "Error": "",
+  "StaleDurationMS": 0
+}

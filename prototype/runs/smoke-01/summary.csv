@@ -1,0 +1,7 @@
+scenario,trials,checks,passed,failures,successful_connections,strict_rejections
+delayed,1,6,6,0,2,0
+fallback,1,2,2,0,1,0
+hybrid,1,5,5,0,1,1
+reassignment,1,9,9,0,1,0
+rollout,1,6,6,0,2,0
+stale,1,4,4,0,2,0

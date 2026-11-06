@@ -1,0 +1,67 @@
+{
+  "WireHistory": [
+    {
+      "ID": "wireproof-v1",
+      "Engine": "wireproof",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "reported",
+      "HistoricalStatus": "blocked",
+      "CurrentStatus": "blocked",
+      "At": 1793897545435752000,
+      "Population": [
+        "c1"
+      ],
+      "References": [
+        "c1-ke",
+        "c1-auth"
+      ],
+      "Known": 1,
+      "Assessed": 1,
+      "Unassessed": 0,
+      "Reason": "known forbidden value"
+    }
+  ],
+  "BaselineHistory": [
+    {
+      "ID": "baseline-v1",
+      "Engine": "baseline",
+      "Epoch": "e1",
+      "Policy": "p1",
+      "Mode": "reported",
+      "HistoricalStatus": "blocked",
+      "CurrentStatus": "blocked",
+      "At": 1793897545435752000,
+      "Population": [
+        "c1"
+      ],
+      "References": [
+        "c1-ke",
+        "c1-auth"
+      ],
+      "Known": 1,
+      "Assessed": 1,
+      "Unassessed": 0,
+      "Reason": "known forbidden value"
+    }
+  ],
+  "WireChanges": [
+    {
+      "At": 1793897545435752000,
+      "Epoch": "e1",
+      "Status": "blocked",
+      "Reason": "known forbidden value"
+    }
+  ],
+  "BaselineChanges": [
+    {
+      "At": 1793897545435752000,
+      "Epoch": "e1",
+      "Status": "blocked",
+      "Reason": "known forbidden value"
+    }
+  ],
+  "WireCorrections": null,
+  "WireRejected": null,
+  "BaselineRejected": null
+}

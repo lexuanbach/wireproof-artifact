@@ -1,0 +1,20 @@
+{
+  "sources": {
+    "go.mod": "6203bc0d8f5dc0801457899b88fbc5fc2e11f5df44c90f750aa2013b150da322",
+    "run.go": "cdbf136ef0e0d8140736d09b22de22da46ab59229688c79be1c3c010d6cd361c",
+    "test_oracle.py": "7cd3585b356927aad6839bfec370f5c2e293b7010d64bc9c21b09d42708cd22e",
+    "ledger.go": "504dab9a842db09ee7f385ae0be9cd5f2db1c0f47c895a34a4638280edc26543",
+    "ledger_test.go": "0a7a7335e4fc880dac2a4319c8b3078907772e20186a0173fdcc1bf2531d2f88",
+    "reproduce.sh": "abd2a5287530a67f876217e94d724e6c13d4ba85d8a03aa7da9e246e1e3a5bb6",
+    "tls.go": "52f3da52960f5b313c3d674643211a050473c9e2b52ec000eb94314f560aae33",
+    "oracle.py": "eda83aaf167890a0de9e6237bf3b33eb769a07814868e04d7f7b388d2560b001",
+    "main.go": "5a1bed0fe1d65e560e689f81b6cadebc4b662d71dd1e7befffa762a1ec937214"
+  },
+  "binary_sha256": "3d960e808013626538920d6894a2d080c9b34be441fcca7401a2d48488670f5e",
+  "go": "go version go1.26.1 darwin/arm64",
+  "python": "3.15.2",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "build_command": "go build -o wireproof-demo .",
+  "run_command": "./wireproof-demo run -out runs/final-02 -repetitions 10",
+  "scope": "Exact source set for the measured final-02 run"
+}

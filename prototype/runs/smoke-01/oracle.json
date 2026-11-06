@@ -1,0 +1,106 @@
+{
+  "captures": 10,
+  "passed": 10,
+  "successful_handshakes": 9,
+  "expected_rejections": 1,
+  "rows": [
+    {
+      "trial": "delayed-01",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "4485a267528eaedcf594c9fdfd1c60e58493eb6fa45f84cc5685bffdf0537d09",
+      "pass": true
+    },
+    {
+      "trial": "delayed-01",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "4d4302539a5d2550a09894d3aa5d9ad8910e3d308a1cf861104ae53dee40cfdd",
+      "pass": true
+    },
+    {
+      "trial": "fallback-01",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "176563cdda44b54b65dd88de485fbef13dabaff376221e574649355cca33f0e1",
+      "pass": true
+    },
+    {
+      "trial": "hybrid-01",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "1aa097054e9ab27f0b5539dc975c071964f5720b666807daf4fcac59eb89e7fa",
+      "pass": true
+    },
+    {
+      "trial": "hybrid-01",
+      "connection": "strict-reject",
+      "expected_failure": true,
+      "groups": [],
+      "sha256": "c29a73f289598bf8a30a3e10ccfc7b981dd824f11838b3149c9a71cffe4670bd",
+      "pass": true
+    },
+    {
+      "trial": "reassignment-01",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "de4f8b9b0253cabb1503f0824f8e6a6f02dab543e6167a03fae42e16c810d643",
+      "pass": true
+    },
+    {
+      "trial": "rollout-01",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "38c3ab57107b4c07566a30f708f77a27c167a7b2f3db97a030b62475edd52596",
+      "pass": true
+    },
+    {
+      "trial": "rollout-01",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "946e7e784e01656cd6c0b67bc38288a902e92a65e19c84ccd90e2cef444b864a",
+      "pass": true
+    },
+    {
+      "trial": "stale-01",
+      "connection": "c1",
+      "expected_failure": false,
+      "groups": [
+        "X25519MLKEM768"
+      ],
+      "sha256": "1c829927da370d71478d25ba764dadfb2bc070ffcdbf4b7f78f37620490a7b03",
+      "pass": true
+    },
+    {
+      "trial": "stale-01",
+      "connection": "c2",
+      "expected_failure": false,
+      "groups": [
+        "X25519"
+      ],
+      "sha256": "f78df207c91e5afe8e889595b5574a02a30659ce9cffd7d67471914428db7139",
+      "pass": true
+    }
+  ]
+}

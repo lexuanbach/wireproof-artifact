@@ -1,0 +1,20 @@
+{
+  "GoVersion": "go1.26.1",
+  "OS": "darwin",
+  "Arch": "arm64",
+  "ExecutableSHA256": "16f957d7690c3645e5c6b198f19a2de10f38f0600b01e91f9b5eccb392b763a1",
+  "ObserverPublicKey": "779927bcbff1029cb81d1f1512df195ee0df478126f88a48dc17d63c88b34cc3",
+  "StartedAt": 1793899691124443000,
+  "Bindings": {
+    "spiffe://wireproof.test/payment/new": {
+      "Identity": "spiffe://wireproof.test/payment/new",
+      "Artifact": "16f957d7690c3645e5c6b198f19a2de10f38f0600b01e91f9b5eccb392b763a1",
+      "Config": "4b8292e6d44533a6d96afe3da0b4f7450aa77d772bcedb48cfa9f42867ee94cf"
+    },
+    "spiffe://wireproof.test/payment/old": {
+      "Identity": "spiffe://wireproof.test/payment/old",
+      "Artifact": "16f957d7690c3645e5c6b198f19a2de10f38f0600b01e91f9b5eccb392b763a1",
+      "Config": "7c7803f3ed8a9fe3a5235b0983aa85602311e0b07c2c112fa929dd3257cd2d9b"
+    }
+  }
+}
