@@ -4,6 +4,8 @@ Local feasibility demonstration for **WireProof: Verifiable Post-Quantum Cryptog
 
 WireProof links connection evidence to operations and service instances, records the population an assessment covers, and separates historical assessments from current eligibility. This repository contains the Go TLS prototype, an independent Python handshake parser, captured evidence, and the planned research protocols.
 
+The [supplementary reproduction notes](supplement.pdf) document the measured run, reproduction commands, evidence navigation, and all four unresolved cases. The source is [supplement.tex](supplement.tex).
+
 ## Quick start
 
 Requires Go 1.26 or later and Python 3. The prototype uses only their standard libraries and local loopback connections.

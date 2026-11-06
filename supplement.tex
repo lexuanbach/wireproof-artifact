@@ -1,0 +1,82 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype}
+\usepackage[margin=23mm]{geometry}
+\usepackage{booktabs,tabularx,array}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xurl}
+\setlength{\emergencystretch}{1em}
+\title{WireProof: Supplementary Reproduction Notes}
+\author{Hoang Nhat Khang Nguyen \and Minh Hieu Le \and Huynh-Gia-Huy Pham \and Phat T. Tran-Truong \and Xuan-Bach Le}
+\date{6 November 2026}
+\begin{document}
+\maketitle
+\noindent Supplement to \emph{WireProof: Verifiable Post-Quantum Cryptography Migration for Service Ecosystems}. This document describes the preserved local feasibility demonstration, its evidence, and its current limits. Planned mesh studies and formal verification remain future work.
+
+\section{Artifact and environment}
+The artifact is at \url{https://github.com/lexuanbach/wireproof-artifact}.
+The measured code and evidence were first packaged at commit \texttt{4dca0715cc8f4563847c4b1b5f3d7078470a16d4}. The supplementary documentation does not change that prototype or its measurements. The measured environment was Go 1.26.1, Python 3.15.2, and macOS/arm64. The prototype uses standard libraries and local loopback connections. Reproduction requires Go 1.26 or later and Python 3; no root access, Docker, or external service is required.
+
+\section{Reproduction}
+From the repository root, run:
+\begin{verbatim}
+bash prototype/reproduce.sh runs/reproduced-01
+\end{verbatim}
+The destination is relative to \texttt{prototype/} and must not already exist. The script runs the Go race-enabled tests, Go vet, and Python parser tests; builds the demonstration; executes six scenarios ten times each; replays the recorded schedules; checks captures independently; and generates summaries. Fresh execution creates new test certificates, timestamps, and hashes. Do not overwrite preserved runs. The root \texttt{REPRODUCE.md} separately gives the pinned commands for the prior QuantumTrustKG results; those results are not new WireProof experiments.
+
+For inspection of the measured run without opening fresh TLS connections:
+\begin{verbatim}
+cd prototype
+go build -o wireproof-demo .
+./wireproof-demo replay -dir runs/final-03
+python3 oracle.py runs/final-03
+./wireproof-demo summarize -dir runs/final-03
+\end{verbatim}
+Replay recomputes decisions from recorded events; it does not rerun the network experiment. Use a copy of the checkout if regenerated derived files must be kept separate from the original snapshot.
+
+\section{Preserved results}
+The paper reports only \texttt{prototype/runs/final-03}. Development and extracted-package validation runs remain separate and their counts are not pooled. The six fixed scenarios have ten trials each:
+\begin{center}
+\begin{tabular}{lrrr}
+\toprule
+Scenario & Checks passed & Connections & Strict rejections\\
+\midrule
+Hybrid & 50/50 & 10 & 10\\
+Fallback & 20/20 & 10 & 0\\
+Rollout & 60/60 & 20 & 0\\
+Delay & 60/60 & 20 & 0\\
+Later violation & 40/40 & 20 & 0\\
+Reassignment & 90/90 & 10 & 0\\
+\midrule
+Total & 320/320 & 90 & 10\\
+\bottomrule
+\end{tabular}
+\end{center}
+All 60 measured trials completed without a trial error. The Python oracle checks 100 captures: 90 successful negotiated-group agreements and ten expected strict-rejection cases. For successful connections it parses the ServerHello group independently of endpoint telemetry. Rejection classification also depends on the endpoint error and absence of a ServerHello. This is not a complete authentication-algorithm oracle.
+
+The later-violation case deliberately delays reports by 50\,ms. The interval from the later connection response to first discovery ranges from 50.155 to 51.156\,ms, with median 51.135\,ms. Both ledgers become pending at discovery. This local discovery interval does not establish a latency advantage or invalidate the earlier historical population. Ten repetitions of fixed scenarios do not justify the planned bound based on 59 independent noncompliant trials.
+
+\section{Evidence navigation and integrity}
+\begin{itemize}
+\item \texttt{source-sha256.json} records the nine source files, measured environment, and executable digest. \texttt{evidence-sha256.json} records 850 measured evidence entries. The packaged executable and ephemeral private test keys are excluded; their recorded digests are retained.
+\item \texttt{manifest.json}, \texttt{launch.json}, and server logs record process bindings, endpoints, public observer keys, and negotiation telemetry.
+\item Trial directories retain \texttt{events.jsonl}, \texttt{trial.json}, \texttt{replay.json}, raw TCP captures, and socket mappings. These connect signed observations, appraisal history, current-eligibility changes, and actual checks.
+\item \texttt{summary.json}, \texttt{summary.csv}, \texttt{summary.tex}, and \texttt{oracle.json} hold the observed counts and independent capture checks.
+\item The root \texttt{CONTRACT-SKETCH.md}, \texttt{EVALUATION.md}, and \texttt{PROTOCOL-WP2.md} describe intended semantics and planned studies. Their requirements are not claims of completed implementation.
+\end{itemize}
+
+\section{Current limits and unresolved cases}
+The harness trusts process launch, control events, clock, registry completeness, and endpoint keys. Operation attribution uses request metadata and executable/configuration hashes. This establishes neither hardware attestation nor Kubernetes workload discovery. The baseline receives the same events and shares reported-population guards and history; complete-population requests unsupported by the baseline are treated as a capability gap.
+
+Four additional event sequences remain unresolved in this snapshot:
+\begin{enumerate}
+\item An invalidation received before its assignment can be forgotten.
+\item A wrong-policy assessment can revoke eligibility, followed by confirmation under the same epoch.
+\item Conflicting authenticated payloads reusing an observation identifier can leave the original fact usable.
+\item A late historical correction does not itself withdraw current eligibility before another assessment.
+\end{enumerate}
+The recorded fixed-scenario successes therefore establish feasibility rather than correctness under every asynchronous schedule. These four cases need fixes and new validation before stronger lifecycle claims. No prototype source or recorded result was changed to prepare this supplement.
+
+General rolling windows, autonomous expiry, full authentication-algorithm observation, distributed completeness, Kubernetes/Istio integration, receipt-signature experiments, and new mechanized proofs remain research targets. The planned 24-month programme evaluates accuracy, availability, coverage, and cost under matched claims and independently established labels.
+\end{document}
